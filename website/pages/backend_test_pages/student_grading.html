@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+	<meta charset=utf-8>
+	<title>grading</title>
+</head>
+
+<body>
+	<div> ENONCE</div>
+	<p>Réaliser un programme qui affiche le message "hello world !"</p>
+	<br>
+	<form enctype="multipart/form-data" action="../../php/student/student_grading.php" method="POST">
+		<input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+		Choose a file to upload:
+		<input name="uploadedfile" type="file" />
+		<input type="submit" value="Upload File" />
+	</form>
+</html>
